@@ -71,7 +71,7 @@ public class SonOfAbs extends Abs {
 
     @Override
     public void print() {
-        System.out.println("my favorite alphabet is " + ch +);
+        System.out.println("my favorite alphabet is " + ch);
     }
 
     @Override
@@ -86,7 +86,7 @@ public class DaughterOfAbs extends Abs {
     
     private String str;
 
-    public DaughterOfAbs(char str) {
+    public DaughterOfAbs(String str) {
         this.str = str;
     }
 
@@ -117,7 +117,7 @@ public class Main {
     public static void main(String[] args) {
         Abs son = new SonOfAbs('S');
 
-        Abs dau = new SonOfAbs("I am daughter");
+        Abs dau = new DaughterOfAbs("I am daughter");
 
         son.print();
         /*
