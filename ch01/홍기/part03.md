@@ -27,9 +27,9 @@ Template method 패턴도 이러한 뜻에서 가져와
  
 ``` java
 public abstract class Abs {
-    public void abstract void open();
-    public void abstract void print();
-    public void abstract void close();
+    public void abstract open();
+    public void abstract print();
+    public void abstract close();
 
     public final void display() {
         open();
